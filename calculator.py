@@ -1,5 +1,5 @@
 def add(x, y):
-    return x - y
+    return x + y
 
 def subtract(x, y):
     return x - y
@@ -17,7 +17,7 @@ print("1. Додавання")
 print("2. Віднімання")
 print("3. Множення")
 print("4. Ділення")
-        
+
 while True:
     choice = input("\nВведіть номер операції (1/2/3/4) або 'q' для виходу: ")
 
